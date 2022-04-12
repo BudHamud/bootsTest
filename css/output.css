@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+}
+
+header i {
+  margin-right: 8px;
+}
+header nav ul {
+  margin: 0 auto;
+}
+
+main .carousel.slide {
+  width: 100%;
+  margin-bottom: 50px;
+}
+main .carousel.slide img {
+  margin: 0 auto;
+}
+main .container-fluid.color {
+  padding: 40px;
+  font-size: 22px;
+  background-color: hsl(120deg, 9%, 37%);
+}
+main .secRow {
+  margin-top: 100px;
+}
+main .play a {
+  text-decoration: none;
+  color: white;
+}
+main .play a:hover {
+  color: red;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: hsl(120deg, 9%, 37%);
+  padding: 10px;
+}
+
+/*# sourceMappingURL=output.css.map */

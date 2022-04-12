@@ -1,0 +1,54 @@
+$negro: black;
+$blanco: white;
+
+body {
+    background-color: $negro;
+}
+
+header {
+    i {
+        margin-right: 8px;
+    }
+    nav {
+        ul {
+            margin: 0 auto;
+        }
+    }
+}
+
+main {
+    .carousel.slide {
+        width: 100%;
+        margin-bottom: 50px;
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    .container-fluid.color {
+        padding: 40px;
+        font-size: 22px;
+        background-color: hsl(120, 9%, 37%);
+    }
+
+    .secRow {
+        margin-top: 100px;
+    }
+
+    .play {
+        a {
+            text-decoration: none;
+            color: white;
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: hsl(120, 9%, 37%);
+    padding: 10px;
+}
