@@ -1,6 +1,11 @@
 $negro: black;
 $blanco: white;
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-color: $negro;
 }
@@ -19,8 +24,8 @@ header {
 main {
     .carousel.slide {
         width: 100%;
-        margin-bottom: 50px;
         img {
+            width: 100%;
             margin: 0 auto;
         }
     }
@@ -47,6 +52,7 @@ main {
 }
 
 footer {
+    border-top: solid 2px white;
     position: absolute;
     bottom: 0;
     background-color: hsl(120, 9%, 37%);

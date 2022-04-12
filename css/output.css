@@ -1,3 +1,8 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   background-color: black;
 }
@@ -11,9 +16,9 @@ header nav ul {
 
 main .carousel.slide {
   width: 100%;
-  margin-bottom: 50px;
 }
 main .carousel.slide img {
+  width: 100%;
   margin: 0 auto;
 }
 main .container-fluid.color {
@@ -33,6 +38,7 @@ main .play a:hover {
 }
 
 footer {
+  border-top: solid 2px white;
   position: absolute;
   bottom: 0;
   background-color: hsl(120deg, 9%, 37%);
