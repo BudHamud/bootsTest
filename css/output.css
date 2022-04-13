@@ -36,6 +36,10 @@ main .play a {
 main .play a:hover {
   color: red;
 }
+main .idea {
+  display: flex;
+  justify-content: center;
+}
 
 footer {
   border-top: solid 2px white;

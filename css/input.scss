@@ -1,5 +1,8 @@
-$negro: black;
+$blancoC: #F8F898;
 $blanco: white;
+$w-100: 100%;
+$w-25: 100% - 75%;
+
 
 html {
     position: relative;
@@ -7,12 +10,13 @@ html {
 }
 
 body {
-    background-color: $negro;
+    background-color: $blancoC;
 }
 
 header {
     i {
         margin-right: 8px;
+        width: $w-100;
     }
     nav {
         ul {
@@ -48,6 +52,11 @@ main {
                 color: red;
             }
         }
+    }
+
+    .idea {
+        display: flex;
+        justify-content: center;
     }
 }
 
